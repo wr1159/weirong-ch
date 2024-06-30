@@ -11,12 +11,35 @@ const { title } = Astro.props;
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Wei Rong Chu" />
+		<meta name="description" content="Hi I am Chu Wei Rong, a computer science student!" />
 		<meta name="author" content="Chu Wei Rong" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<meta
+				property="og:title"
+				content={title}
+			/>
+			<meta property="og:url" content="https://weirong.ch/" />
+			<meta property="og:type" content="website" />
+			<meta
+				property="og:image"
+				content="/public/og-image.png"
+			/>
+			<meta
+				property="og:description"
+				content="Hi, I am Wei Rong!"
+			/>
+			<meta
+				name="twitter:title"
+				content={title}
+			/>
+			<meta
+				name="twitter:image"
+				content="/public/og-image.png"
+			/>
+			<meta name="twitter:card" content="summary_large_image" />
 	</head>
 	<body>
 		<div class="container">
