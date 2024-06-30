@@ -1,4 +1,4 @@
-export default function AboutPage() {
+export default function ContactPage() {
   return (
     <div className="flex flex-col">
       <section className="w-full py-12 md:py-24 lg:py-32">
