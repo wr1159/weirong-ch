@@ -12,11 +12,19 @@ import {
 export function ModeToggle() {
   const [theme, setThemeState] = React.useState<
     "theme-light" | "dark" | "system"
-  >("theme-light");
+  >("dark");
 
+  const changeFavicon = (isDark: boolean) => {
+    const faviconPath = isDark ? "/dark-mode-favicon.ico" : "/light-mode-favicon.ico";
+    const link = document.createElement("link");
+    link.rel = "icon";
+    link.href = faviconPath;
+    document.head.appendChild(link);
+  }
   React.useEffect(() => {
     const isDarkMode = document.documentElement.classList.contains("dark");
     setThemeState(isDarkMode ? "dark" : "theme-light");
+    changeFavicon(isDarkMode);
   }, []);
 
   React.useEffect(() => {
@@ -25,6 +33,7 @@ export function ModeToggle() {
       (theme === "system" &&
         window.matchMedia("(prefers-color-scheme: dark)").matches);
     document.documentElement.classList[isDark ? "add" : "remove"]("dark");
+    changeFavicon(isDark)
   }, [theme]);
 
   return (
