@@ -16,7 +16,6 @@ This is my first time using Astro and I have always wanted to try using it since
 - [ ] Contact Page
 - [ ] Analytics Tool
 
-
 ## Commands
 
 | Command                   | Action                                           |
