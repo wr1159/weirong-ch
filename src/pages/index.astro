@@ -1,6 +1,7 @@
 ---
 import '@/styles/globals.css'
-import { Navbar} from '@/components/Navbar';
+import Navbar from '@/components/Navbar';
+import AboutPage  from '@/components/AboutPage';
 import Layout from "../layouts/Layout.astro"
 ---
 <script is:inline>
@@ -24,4 +25,5 @@ import Layout from "../layouts/Layout.astro"
 
 <Layout title="Chu Wei Rong">
 		<Navbar client:load/>
+		<AboutPage />
 </Layout>
