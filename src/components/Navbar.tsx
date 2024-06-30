@@ -36,7 +36,7 @@ export default function Navbar() {
                 Resume
               </a>
               <a
-                href="/"
+                href="/contact"
                 className="flex w-full items-center py-2 text-lg font-semibold"
               >
                 Contact
@@ -63,7 +63,7 @@ export default function Navbar() {
           Resume
         </a>
         <a
-          href="/"
+          href="/contact"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md px-2 py-2 text-sm font-medium"
         >
           Contact
