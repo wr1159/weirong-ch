@@ -15,13 +15,15 @@ export default function AboutPage() {
                 </span>
                 , a penultimate Computer Science student at NUS.
                 <br />
-                <br />I love Software Engineering and other forms of engineering
-                as it allows people to create solutions to problems the world faces. I
+                <br />
+                I love Software Engineering and other forms of engineering as it
+                allows people to create solutions to problems the world faces. I
                 particularly enjoy the blockchain space because of the constant
                 innovation to capture the attention economy.
-                <br/>
-                <br/>
-                The colour theme you are seeing is the same theme I use for my keyboard and all my apps!
+                <br />
+                <br />
+                The colour theme you are seeing is the same theme I use for my
+                keyboard and all my apps!
               </p>
             </div>
           </div>
