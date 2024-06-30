@@ -16,7 +16,7 @@ export default function Navbar() {
         <SheetContent side="left">
           <SheetHeader>
             <div className="flex items-center">
-              <a href="#" className="mr-6">
+              <a href="/" className="mr-6">
                 <MountainIcon className="h-6 w-6" />
                 <span className="sr-only">Chu Wei Rong</span>
               </a>
@@ -24,19 +24,19 @@ export default function Navbar() {
             </div>
             <div className="grid gap-2 py-6">
               <a
-                href="#"
+                href="/"
                 className="flex w-full items-center py-2 text-lg font-semibold"
               >
                 About
               </a>
               <a
-                href="#"
+                href="/"
                 className="flex w-full items-center py-2 text-lg font-semibold"
               >
                 Resume
               </a>
               <a
-                href="#"
+                href="/"
                 className="flex w-full items-center py-2 text-lg font-semibold"
               >
                 Contact
@@ -45,25 +45,25 @@ export default function Navbar() {
           </SheetHeader>
         </SheetContent>
       </Sheet>
-      <a href="#" className="mr-6 hidden sm:flex">
+      <a href="/" className="mr-6 hidden sm:flex">
         <MountainIcon className="h-6 w-6" />
         <span className="sr-only">Chu Wei Rong</span>
       </a>
       <nav className="ml-auto hidden sm:flex gap-4">
         <a
-          href="#"
+          href="/"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md px-2 py-2 text-sm font-medium"
         >
           About
         </a>
         <a
-          href="#"
+          href="/"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md px-2 py-2 text-sm font-medium" 
         >
           Resume
         </a>
         <a
-          href="#"
+          href="/"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md px-2 py-2 text-sm font-medium"
         >
           Contact
