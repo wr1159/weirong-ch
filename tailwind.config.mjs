@@ -17,7 +17,7 @@ module.exports = {
       },
     },
     extend: {
-      fontFamily: {"sans": ['Geist Mono', "Inconsolata", "sans"]},
+      fontFamily: {"sans": ['Geist Mono', "monaco", "sans"]},
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
