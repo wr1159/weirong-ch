@@ -2,6 +2,7 @@
 import '@/styles/globals.css'
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from '@/components/ModeToggle';
+import { Navbar} from '@/components/Navbar';
 import Layout from "../layouts/Layout.astro"
 ---
 <script is:inline>
@@ -24,6 +25,7 @@ import Layout from "../layouts/Layout.astro"
 </script>
 
 <Layout title="Chu Wei Rong">
+		<Navbar client:load/>
 		<ModeToggle client:load />
 		<Button>Hello World</Button>
 </Layout>
