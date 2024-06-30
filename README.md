@@ -13,7 +13,8 @@ This is my first time using Astro and I have always wanted to try using it since
 - [ ] About Page
   - [x] Summary
   - [ ] Detailed Experience + Projects
-- [ ] Contact Page
+- [x] Contact Page
+- [ ] 404 Page
 - [ ] Analytics Tool
 
 ## Commands
