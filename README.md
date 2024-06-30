@@ -14,7 +14,7 @@ This is my first time using Astro and I have always wanted to try using it since
   - [x] Summary
   - [ ] Detailed Experience + Projects
 - [x] Contact Page
-- [ ] 404 Page
+- [x] 404 Page
 - [ ] Analytics Tool
 
 ## Commands
