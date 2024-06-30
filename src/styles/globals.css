@@ -36,7 +36,7 @@
       --primary-foreground: 0 0% 100%;
       --secondary: 5 30% 10%;
       --secondary-foreground: 0 0% 100%;
-      --muted: -33 30% 15%;
+      --muted: -30 30% 25%;
       --muted-foreground: 5 5% 60%;
       --accent: -33 30% 15%;
       --accent-foreground: 5 5% 90%;
@@ -53,6 +53,9 @@
   @layer base {
     * {
       @apply border-border;
+    }
+    *::selection {
+      @apply bg-muted;
     }
     body {
       @apply bg-background text-foreground;
