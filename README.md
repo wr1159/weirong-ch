@@ -2,7 +2,7 @@
 
 ## About
 
-This is my personal website made with [Astro](https://astro.build/), [React](https://react.dev/), [TailwindCSS](https://tailwindcss.com/) and [Shadcn UI](ui.shadcn.com).
+This is my personal website made with [Astro](https://astro.build/), [React](https://react.dev/), [TailwindCSS](https://tailwindcss.com/) and [Shadcn UI](https://ui.shadcn.com).
 
 This is my first time using Astro and I have always wanted to try using it since I have heard great things about it. I chose to use Astro for my personal website due to its speed and compatibility with many frontend frameworks I am familiar with.
 
