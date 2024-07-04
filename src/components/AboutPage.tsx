@@ -3,7 +3,7 @@ export default function AboutPage() {
     <div className="flex flex-col">
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="px-4 md:px-6 grid gap-10 lg:grid-cols-5 lg:gap-12">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center lg:col-span-2">
+          <div className="flex flex-col space-y-4 text-left lg:col-span-2">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Chu Wei Rong
