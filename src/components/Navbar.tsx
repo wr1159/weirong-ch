@@ -30,7 +30,7 @@ export default function Navbar() {
                 About
               </a>
               <a
-                href="/"
+                href="https://resume.weirong.ch"
                 className="flex w-full items-center py-2 text-lg font-semibold"
               >
                 Resume
