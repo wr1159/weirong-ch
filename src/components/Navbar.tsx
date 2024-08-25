@@ -30,7 +30,7 @@ export default function Navbar() {
                 About
               </a>
               <a
-                href="https://resume.weirong.ch"
+                href="https://docs.google.com/document/d/1_AdnzfQzKE0TCKr1eSvE9kfMiopBSGXb/edit"
                 className="flex w-full items-center py-2 text-lg font-semibold"
               >
                 Resume
@@ -57,7 +57,7 @@ export default function Navbar() {
           About
         </a>
         <a
-          href="/"
+          href="https://docs.google.com/document/d/1_AdnzfQzKE0TCKr1eSvE9kfMiopBSGXb/edit"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md px-2 py-2 text-sm font-medium" 
         >
           Resume

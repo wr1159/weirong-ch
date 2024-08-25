@@ -22,9 +22,6 @@ export default function ContactPage() {
               linkedin.com/in/wei-rong-chu
             </a>
           </li>
-          <li>
-            <a href="https://resume.weirong.ch" rel="nofollow noindex noreferrer">resume.weirong.ch</a>
-          </li>
         </ul>
       </section>
     </div>
