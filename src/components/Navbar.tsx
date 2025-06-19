@@ -36,6 +36,12 @@ export default function Navbar() {
                 Resume
               </a>
               <a
+                  href="/hackathons"
+                  className="flex w-full items-center py-2 text-lg font-semibold"
+                >
+                Hackathons
+              </a>
+              <a
                 href="/contact"
                 className="flex w-full items-center py-2 text-lg font-semibold"
               >
@@ -61,6 +67,12 @@ export default function Navbar() {
           className="group inline-flex h-9 w-max items-center justify-center rounded-md px-2 py-2 text-sm font-medium" 
         >
           Resume
+        </a>
+        <a
+          href="/hackathons"
+          className="group inline-flex h-9 w-max items-center justify-center rounded-md px-2 py-2 text-sm font-medium"
+        >
+          Hackathons
         </a>
         <a
           href="/contact"
