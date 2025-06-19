@@ -10,11 +10,12 @@ import {
 export default function HackathonsPage() {
   return (
     <div className="flex flex-col">
-      <section className="w-full py-12 md:py-24 lg:py-32">
+      <section className="w-full py-6">
         <div className="px-4 md:px-6">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl pb-6">
-            Hackathons I've Won (Most Recent First)
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl pb-2">
+            Hackathons I've Won
           </h1>
+          <p className="text-muted-foreground pb-6">(Most Recent First)</p>
           <Table>
             <TableHeader>
               <TableRow>
