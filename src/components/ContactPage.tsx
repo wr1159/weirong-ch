@@ -10,12 +10,16 @@ export default function ContactPage() {
           blockchains, otamatones, or anything else!
         </p>
         <ul className="space-y-1 text-muted-foreground py-4">
-          <li>chuweirong@u.nus.edu</li>
+          <li>chuweirong at u dot nus dot edu</li>
           <li>
-            <a href="https://t.me/wr1159" rel="nofollow noindex noreferrer">t.me/wr1159</a>
+            <a href="https://t.me/wr1159" rel="nofollow noindex noreferrer">
+              t.me/wr1159
+            </a>
           </li>
           <li>
-            <a href="https://github.com/wr1159" rel="nofollow">github.com/wr1159</a>
+            <a href="https://github.com/wr1159" rel="nofollow">
+              github.com/wr1159
+            </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/wei-rong-chu/" rel="nofollow">
