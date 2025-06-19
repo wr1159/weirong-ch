@@ -15,12 +15,14 @@ export function ModeToggle() {
   >("dark");
 
   const changeFavicon = (isDark: boolean) => {
-    const faviconPath = isDark ? "/dark-mode-favicon.ico" : "/light-mode-favicon.ico";
+    const faviconPath = isDark
+      ? "/dark-mode-favicon.ico"
+      : "/light-mode-favicon.ico";
     const link = document.createElement("link");
     link.rel = "icon";
     link.href = faviconPath;
     document.head.appendChild(link);
-  }
+  };
   React.useEffect(() => {
     const isDarkMode = document.documentElement.classList.contains("dark");
     setThemeState(isDarkMode ? "dark" : "theme-light");
@@ -33,7 +35,7 @@ export function ModeToggle() {
       (theme === "system" &&
         window.matchMedia("(prefers-color-scheme: dark)").matches);
     document.documentElement.classList[isDark ? "add" : "remove"]("dark");
-    changeFavicon(isDark)
+    changeFavicon(isDark);
   }, [theme]);
 
   return (
@@ -45,7 +47,7 @@ export function ModeToggle() {
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
+      <DropdownMenuContent align="end" className="border-border">
         <DropdownMenuItem onClick={() => setThemeState("theme-light")}>
           Light
         </DropdownMenuItem>
