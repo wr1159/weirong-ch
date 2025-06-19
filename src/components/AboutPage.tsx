@@ -19,7 +19,8 @@ export default function AboutPage() {
                 I love Software Engineering and other forms of engineering as it
                 allows people to create solutions to problems the world faces. I
                 particularly enjoy the blockchain space because of the constant
-                innovation to capture the attention economy.
+                innovation to capture the attention economy. I also enjoy joining
+                Web3 <a href="/hackathons">Hackathons</a> to build cool projects.
                 <br />
                 <br />
                 The colour theme you are seeing is the same theme I use for my
