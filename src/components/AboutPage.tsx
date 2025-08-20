@@ -33,6 +33,9 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold">Experience</h3>
               <ul className="space-y-1 text-muted-foreground">
                 <li>
+                  SWE Intern at <a href="https://tokkalabs.com/">Tokka Labs</a>
+                </li>
+                <li>
                   Full Stack Intern at{" "}
                   <a href="https://www.switcheo.com/">Switcheo Labs</a>
                 </li>
