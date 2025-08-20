@@ -13,7 +13,7 @@ export default function AboutPage() {
                 <span className="font-bold text-accent-foreground">
                   Wei Rong
                 </span>
-                , a penultimate Computer Science student at NUS.
+                , a final year Computer Science student at NUS.
                 <br />
                 <br />I love Software Engineering and other forms of engineering
                 as it allows people to create solutions to problems the world
